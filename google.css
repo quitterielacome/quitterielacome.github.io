@@ -1,0 +1,141 @@
+
+.haut {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    flex-direction: row;
+    text-decoration-color: rgba(0,0,0,0.87);
+    justify-content: space-between;
+    
+}
+.bas {
+    display: flex;
+    height: 40px;
+    left: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    justify-content: space-between;
+    flex-flow: row;
+    padding-left: 27px;
+}
+
+.droite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+
+}
+.gauche {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    
+}
+
+.logo {
+    display: flex;
+    margin-top: 155px;
+    justify-content: center;
+}
+
+a {
+
+    color: rgba(0,0,0,0.75);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+  }
+  
+  a:hover {
+    color: rgba(0,0,0,0.75);
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: arial, sans-serif
+  }  
+
+
+  .bouton-bleu a{
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    padding: 8px;
+    border-radius: 5%;
+    color: white;
+  }
+
+input {
+    width: 582px;
+      height:44px;
+      margin-bottom:15px;
+      border-radius: 40px;
+      outline: white;
+      border-width: 1px;
+      border-color: rgba(223, 225, 229, 0);
+      box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    }
+
+.search-box, .bouton {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.search, .mic {
+    display: flex;
+    margin-top: 12px;
+}
+
+.Milieu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bouton {
+    padding: 10px 16px;
+    background-color:#f2f2f2;
+    text-align: center;
+    border-radius: 5px;
+    color: #63676c;
+    font-size: 14px;
+    text-decoration: none;
+    width:100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.bas a {
+    font-size: 14px;
+    text-decoration: none;
+    text-decoration-color:#5f6368;
+}
+
+.haut .gauche {
+    width: 100px;
+    margin-left: 20px;
+}
